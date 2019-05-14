@@ -1,0 +1,45 @@
+time: 0.0 :read 2 elem from file /root/cube-1.3/proc/main/base_define/namelist.json!
+
+time: 0.002001 :read 4 elem from file /root/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+
+time: 0.003155 :read 1 elem from file /root/cube-1.3/proc/main/base_define/typelist.json!
+
+time: 0.007044 :read 7 elem from file /root/cube-1.3/proc/main/base_define/subtypelist.json!
+
+time: 0.007937 :read 1 elem from file /root/cube-1.3/proc/main/base_define/baseflag.json!
+
+time: 0.010988 :read 3 elem from file /root/cube-1.3/proc/main/base_define/memdb.json!
+
+time: 0.016246 :read 6 elem from file /root/cube-1.3/proc/main/base_define/msghead.json!
+
+time: 0.095401 :read 2 elem from file /root/cube-1.3/proc/main/base_define/msgrecord.json!
+
+time: 0.100246 :read 3 elem from file /root/cube-1.3/proc/main/base_define/expandrecord.json!
+
+time: 0.107743 :read 7 elem from file /root/cube-1.3/proc/main/base_define/base_msg.json!
+
+time: 0.111202 :read 3 elem from file /root/cube-1.3/proc/main/base_define/dispatchrecord.json!
+
+time: 0.112993 :read 2 elem from file /root/cube-1.3/proc/main/base_define/exmoduledefine.json!
+
+time: 0.114475 :read 1 elem from file /root/cube-1.3/proc/main/base_define/sys_conn.json!
+
+time: 0.213941 :read 8 elem from file login_test.json!
+
+time: 1.403816 :this machine's local uuid is df92b79c3abf612462ba18fcb525823391aa91aa9efa2606c8603194f63b9b93
+
+time: 1.407012 :read 1 policy succeed!
+time: 1.407450 :prepare the router proc
+
+time: 1.410371 :prepare the conn proc
+
+time: 1.411202 :monitor ex_modulec router_proc started successfully!
+
+time: 1.411513 :start ex_module msg_send started successfully!
+
+time: 1.411758 :monitor ex_modulec define_convert started successfully!
+
+time: 1.412401 :begin msgfile_send module!
+
+time: 1.413833 :router get proc msg_send's message 
+time: 1.414898 :normal message prepare to send: message 1c52c6ba type MESSAGE TYPES to define_convert

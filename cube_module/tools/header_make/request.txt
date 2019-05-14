@@ -1,0 +1,9 @@
+{
+	"type":"MESSAGE",
+	"subtype":"TYPES",
+	"mode":"INT"
+}
+{
+	"type":"LOGIN_TEST",
+	"subtype":0
+}

@@ -1,0 +1,26 @@
+time: 0.0 :read 2 elem from file /root/cube-1.3/proc/main/base_define/namelist.json!
+
+time: 0.000391 :read 4 elem from file /root/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+
+time: 0.000559 :read 1 elem from file /root/cube-1.3/proc/main/base_define/typelist.json!
+
+time: 0.001106 :read 7 elem from file /root/cube-1.3/proc/main/base_define/subtypelist.json!
+
+time: 0.001205 :read 1 elem from file /root/cube-1.3/proc/main/base_define/baseflag.json!
+
+time: 0.001838 :read 3 elem from file /root/cube-1.3/proc/main/base_define/memdb.json!
+
+time: 0.002612 :read 6 elem from file /root/cube-1.3/proc/main/base_define/msghead.json!
+
+time: 0.003093 :read 2 elem from file /root/cube-1.3/proc/main/base_define/msgrecord.json!
+
+time: 0.003627 :read 3 elem from file /root/cube-1.3/proc/main/base_define/expandrecord.json!
+
+time: 0.004651 :read 8 elem from file /root/cube-1.3/proc/main/base_define/base_msg.json!
+
+time: 0.005233 :read 3 elem from file /root/cube-1.3/proc/main/base_define/dispatchrecord.json!
+
+time: 0.005626 :read 2 elem from file /root/cube-1.3/proc/main/base_define/exmoduledefine.json!
+
+time: 0.005870 :read 1 elem from file /root/cube-1.3/proc/main/base_define/sys_conn.json!
+
