@@ -1,0 +1,55 @@
+time: 0.0 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/namelist.json!
+
+time: 0.000278 :read 4 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/dispatchnamelist.json!
+
+time: 0.000457 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/typelist.json!
+
+time: 0.000954 :read 7 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/subtypelist.json!
+
+time: 0.001078 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/baseflag.json!
+
+time: 1.001483 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/memdb.json!
+
+time: 1.001993 :read 6 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/msghead.json!
+
+time: 1.002354 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/msgrecord.json!
+
+time: 1.002813 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/expandrecord.json!
+
+time: 1.003461 :read 7 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/base_msg.json!
+
+time: 1.003918 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/dispatchrecord.json!
+
+time: 1.004187 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/exmoduledefine.json!
+
+time: 1.004437 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/sys_conn.json!
+
+time: 1.010185 :read 7 elem from file file_trans.json!
+
+time: 1.035030 :this machine's local uuid is 000ddc7578bc849cfeda33dc7c2257a4264731a03ace7153151f6142b7fab5bf
+
+time: 1.038622 :read 1 connector!
+
+time: 1.038693 :conn server crypto_server begin to listen!
+
+time: 1.038929 :read 1 policy succeed!
+time: 1.038969 :prepare the router proc
+
+time: 1.039818 :prepare the conn proc
+
+time: 1.039987 :monitor ex_modulec router_proc started successfully!
+
+time: 1.040020 :monitor ex_modulec crypt started successfully!
+
+time: 39.121895 :create a new channel 940008d0!
+
+time: 39.122116 :send 275 data to conn (null)!
+
+time: 43.819482 :create a new channel 94002110!
+
+time: 43.819633 :send 275 data to conn (null)!
+
+time: 43.824263 :channel set name file_sender!
+
+time: 43.824701 :router get proc connector_proc's message 
+time: 43.824894 :discard message: message 53a88553 type MESSAGE CONN_ACKI to 

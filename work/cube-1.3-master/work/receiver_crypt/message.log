@@ -1,0 +1,8 @@
+
+**************Begin new trust node proc****************************
+{ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"connector_proc","receiver_uuid":"","route":"","flow":"FINISH","state":"INIT","flag":"NULL","ljump":1,"rjump":1,"record_type":"MESSAGE","record_subtype":"CONN_ACKI","record_num":1,"record_size":170,"expand_num":0,"expand_size":0,"msg_uuid":"0a8a2c08d89238bdead3ab48894a35a89a0c0384ca35efbc7d8cf9e86d46d0b9"},"RECORD":[{"uuid":"000ddc7578bc849cfeda33dc7c2257a4264731a03ace7153151f6142b7fab5bf","client_name":"file_receiver","client_proc":"file_receiver","client_addr":"unknown addr","server_uuid":"000ddc7578bc849cfeda33dc7c2257a4264731a03ace7153151f6142b7fab5bf","server_name":"receiver_crypt","service":"trust_server","server_addr":"","flags":0,"nonce":""}],"EXPAND" :[]}
+
+************************************************************
+{ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"connector_proc","receiver_uuid":"","route":"crypto","flow":"FINISH","state":"DELIVER","flag":"NULL","ljump":1,"rjump":1,"record_type":"FILE_TRANS","record_subtype":"FILE_DATA","record_num":1,"record_size":86,"expand_num":0,"expand_size":0,"msg_uuid":"22edf83c089155db9522335c1820a8da9b4ca53a5dbd8e901f198270b010d22e"},"RECORD":[{"uuid":"8a4fc23ad29b7a0b9225ff95b86a03ae64f0632ee6ad50b3067ec3745477015e","filename":"test1.txt","total_size":28,"record_no":0,"offset":0,"data_size":28,"policy_data":"6YeN5ZCv5Y+v5L+h6K6h566XMy4w6Z2p5ZG9Cg"}],"EXPAND" :[]}
+
+************************************************************

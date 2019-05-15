@@ -1,0 +1,101 @@
+time: 0.0 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/namelist.json!
+
+time: 0.000199 :read 4 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/dispatchnamelist.json!
+
+time: 0.000298 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/typelist.json!
+
+time: 0.000762 :read 7 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/subtypelist.json!
+
+time: 0.000871 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/baseflag.json!
+
+time: 0.001276 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/memdb.json!
+
+time: 0.001809 :read 6 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/msghead.json!
+
+time: 0.002971 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/msgrecord.json!
+
+time: 0.003479 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/expandrecord.json!
+
+time: 0.004316 :read 7 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/base_msg.json!
+
+time: 0.004776 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/dispatchrecord.json!
+
+time: 0.005045 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/exmoduledefine.json!
+
+time: 0.005190 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/sys_conn.json!
+
+time: 0.011123 :read 7 elem from file file_trans.json!
+
+time: 0.041064 :this machine's local uuid is 000ddc7578bc849cfeda33dc7c2257a4264731a03ace7153151f6142b7fab5bf
+
+time: 0.042278 :read 2 connector!
+
+time: 0.042303 :conn server file_server begin to listen!
+
+time: 0.042542 :read 1 policy succeed!
+time: 0.042601 :read 1 policy succeed!
+time: 0.042654 :prepare the router proc
+
+time: 0.044168 :prepare the conn proc
+
+time: 0.044383 :monitor ex_modulec router_proc started successfully!
+
+time: 0.044456 :monitor ex_modulec attack started successfully!
+
+time: 0.044487 :monitor ex_modulec file_dealer started successfully!
+
+time: 0.044515 :begin file_dealer start process! 
+
+time: 0.044551 :monitor ex_modulec echo started successfully!
+
+time: 0.044611 :monitor ex_modulec file_dealer started successfully!
+
+time: 0.044629 :begin file_dealer start process! 
+
+time: 0.046756 :proc conn client receive 276 data!
+
+time: 0.046938 :send 349 data to conn file_trans!
+
+time: 0.046946 :client file_trans send 349 ack data to server !
+
+time: 0.047629 :router get proc connector_proc's message 
+time: 0.047751 :discard message: message 6aae5384 type MESSAGE CONN_SYNI to 
+time: 10.106003 :create a new channel fc002570!
+
+time: 10.106148 :send 276 data to conn (null)!
+
+time: 14.803537 :create a new channel fc002df0!
+
+time: 14.803703 :send 276 data to conn (null)!
+
+time: 14.805095 :channel receive (769 2) message from conn (null)!
+
+time: 14.805166 :client forward (769 2) message to main proc!
+
+time: 14.805451 :channel set name file_sender!
+
+time: 14.805765 :router get proc connector_proc's message 
+time: 14.805834 :discard message: message 36a38645 type MESSAGE CONN_ACKI to 
+time: 14.805839 :router get proc connector_proc's message 
+time: 14.805949 :duplicate message prepare to send: message 3cf8ed22 type FILE_TRANS FILE_DATA to attack
+time: 14.806014 :normal message prepare to send: message 3cf8ed22 type FILE_TRANS FILE_DATA to :file_trans
+time: 14.806021 :send message to conn process!
+time: 14.806188 :send 346 data to conn file_trans!
+
+time: 14.806206 :send (769  2)message 346 to conn file_trans!
+
+time: 14.807911 :router get proc attack's message 
+time: 14.807940 :begin to response query message
+time: 14.808047 :normal message prepare to send: message 3cf8ed22 type FILE_TRANS FILE_DATA to ·ÿ¨hŽR¾j0ßš¢íÌRK@ÅÈ|
+time: 14.808071 :send message to conn process!
+time: 14.811101 :proc conn client receive 274 data!
+
+time: 14.811151 :router get proc connector_proc's message 
+time: 14.811217 :begin to response query message
+time: 14.811358 :normal message prepare to send: message 3cf8ed22 type FILE_TRANS NOTICE to <øÜ‚osA$Y6˜%ã
+„èÜhñ^fÆkþÃ¨bfile_trans
+time: 14.811367 :send message to conn process!
+time: 14.812944 :send 226 data to conn file_sender!
+
+time: 14.812961 :send (769  5)message 226 to conn file_sender!
+

@@ -1,0 +1,84 @@
+time: 0.0 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/namelist.json!
+
+time: 0.000302 :read 4 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/dispatchnamelist.json!
+
+time: 0.000455 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/typelist.json!
+
+time: 0.000986 :read 7 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/subtypelist.json!
+
+time: 0.001114 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/baseflag.json!
+
+time: 0.001514 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/memdb.json!
+
+time: 0.002101 :read 6 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/msghead.json!
+
+time: 0.002417 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/msgrecord.json!
+
+time: 0.002812 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/expandrecord.json!
+
+time: 0.003429 :read 7 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/base_msg.json!
+
+time: 0.003804 :read 3 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/dispatchrecord.json!
+
+time: 0.004000 :read 2 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/exmoduledefine.json!
+
+time: 0.004177 :read 1 elem from file /home/zyc14588/work/cube-1.3-master/proc/main/base_define/sys_conn.json!
+
+time: 0.009596 :read 7 elem from file file_trans.json!
+
+time: 0.036052 :this machine's local uuid is 000ddc7578bc849cfeda33dc7c2257a4264731a03ace7153151f6142b7fab5bf
+
+time: 0.037513 :read 2 connector!
+
+time: 0.037537 :conn server file_server begin to listen!
+
+time: 0.037697 :read 1 policy succeed!
+time: 0.037742 :read 1 policy succeed!
+time: 0.037814 :prepare the router proc
+
+time: 0.038813 :prepare the conn proc
+
+time: 0.038896 :monitor ex_modulec router_proc started successfully!
+
+time: 0.038915 :monitor ex_modulec file_dealer started successfully!
+
+time: 0.038943 :begin file_dealer start process! 
+
+time: 0.040714 :proc conn client receive 277 data!
+
+time: 0.040918 :send 350 data to conn crypt_client!
+
+time: 0.040951 :client crypt_client send 350 ack data to server !
+
+time: 0.041170 :router get proc connector_proc's message 
+time: 0.041629 :discard message: message 82c8a0a type MESSAGE CONN_SYNI to 
+time: 8.940896 :create a new channel 68002570!
+
+time: 8.941025 :send 276 data to conn (null)!
+
+time: 8.943591 :channel set name file_transfer!
+
+time: 8.944235 :router get proc connector_proc's message 
+time: 8.944307 :discard message: message 6aae5384 type MESSAGE CONN_ACKI to 
+time: 22.702309 :channel receive (769 2) message from conn file_transfer!
+
+time: 22.702337 :client forward (769 2) message to main proc!
+
+time: 22.703087 :router get proc connector_proc's message 
+time: 22.703215 :duplicate message prepare to send: message 3cf8ed22 type FILE_TRANS FILE_DATA to receiver_crypt
+time: 22.703228 :send message to conn process!
+time: 22.703276 :normal message prepare to send: message 3cf8ed22 type FILE_TRANS FILE_DATA to file_dealer
+time: 22.703306 :begin file receive!
+
+time: 22.703875 :send 266 data to conn crypt_client!
+
+time: 22.703892 :send (769  2)message 266 to conn crypt_client!
+
+time: 22.704237 :router get proc file_dealer's message 
+time: 22.704300 :begin to response query message
+time: 22.704361 :normal message prepare to send: message 3cf8ed22 type FILE_TRANS NOTICE to ·ÿ¨hŽR¾j0ßš¢íÌRK@ÅÈ|
+time: 22.704382 :send message to conn process!
+time: 22.705206 :send 274 data to conn file_transfer!
+
+time: 22.705247 :send (769  5)message 274 to conn file_transfer!
+
