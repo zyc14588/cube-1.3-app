@@ -1,61 +1,123 @@
-time: 0.0 :read 2 elem from file /root/cube-1.3/proc/main/base_define/namelist.json!
+time: 0.0 :read 2 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/namelist.json!
 
-time: 0.000396 :read 4 elem from file /root/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+time: 0.000406 :read 4 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/dispatchnamelist.json!
 
-time: 0.000611 :read 1 elem from file /root/cube-1.3/proc/main/base_define/typelist.json!
+time: 0.000588 :read 1 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/typelist.json!
 
-time: 0.001218 :read 7 elem from file /root/cube-1.3/proc/main/base_define/subtypelist.json!
+time: 0.001128 :read 7 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/subtypelist.json!
 
-time: 0.001319 :read 1 elem from file /root/cube-1.3/proc/main/base_define/baseflag.json!
+time: 0.001228 :read 1 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/baseflag.json!
 
-time: 0.001886 :read 3 elem from file /root/cube-1.3/proc/main/base_define/memdb.json!
+time: 0.001809 :read 3 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/memdb.json!
 
-time: 0.002674 :read 6 elem from file /root/cube-1.3/proc/main/base_define/msghead.json!
+time: 0.002547 :read 6 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/msghead.json!
 
-time: 0.003167 :read 2 elem from file /root/cube-1.3/proc/main/base_define/msgrecord.json!
+time: 0.003013 :read 2 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/msgrecord.json!
 
-time: 0.003774 :read 3 elem from file /root/cube-1.3/proc/main/base_define/expandrecord.json!
+time: 0.003535 :read 3 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/expandrecord.json!
 
-time: 0.004884 :read 8 elem from file /root/cube-1.3/proc/main/base_define/base_msg.json!
+time: 0.004582 :read 8 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/base_msg.json!
 
-time: 0.005395 :read 3 elem from file /root/cube-1.3/proc/main/base_define/dispatchrecord.json!
+time: 0.005209 :read 3 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/dispatchrecord.json!
 
-time: 0.005716 :read 2 elem from file /root/cube-1.3/proc/main/base_define/exmoduledefine.json!
+time: 0.005539 :read 2 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/exmoduledefine.json!
 
-time: 0.005962 :read 1 elem from file /root/cube-1.3/proc/main/base_define/sys_conn.json!
+time: 0.005838 :read 1 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/sys_conn.json!
 
-time: 0.013546 :read 8 elem from file login_test.json!
+time: 0.010543 :read 8 elem from file login_test.json!
 
-time: 0.027013 :this machine's local uuid is df92b79c3abf612462ba18fcb525823391aa91aa9efa2606c8603194f63b9b93
+time: 0.019850 :this machine's local uuid is df92b79c3abf612462ba18fcb525823391aa91aa9efa2606c8603194f63b9b93
 
-time: 0.028271 :read 1 connector!
+time: 0.020638 :read 1 connector!
 
-time: 0.028295 :conn server login_center begin to listen!
+time: 0.020669 :conn server login_center begin to listen!
 
-time: 0.029035 :read 1 policy succeed!
-time: 0.029095 :prepare the router proc
+time: 0.020974 :read 1 policy succeed!
+time: 0.021039 :prepare the router proc
 
-time: 0.033034 :prepare the conn proc
+time: 0.021879 :prepare the conn proc
 
-time: 0.033192 :monitor ex_modulec router_proc started successfully!
+time: 0.022012 :monitor ex_modulec router_proc started successfully!
 
-time: 0.033255 :start ex_module msg_send started successfully!
+time: 0.022074 :start ex_module msg_send started successfully!
 
-time: 0.033380 :monitor ex_modulec login_test started successfully!
+time: 0.022137 :monitor ex_modulec login_test started successfully!
 
-time: 0.033458 :begin msgfile_send module!
+time: 0.022196 :monitor ex_modulec recordlib started successfully!
 
-time: 12.524911 :create a new channel 980008d0!
+time: 0.022379 :read 0 lib files!
 
-time: 12.525103 :send 275 data to conn (null)!
+time: 0.022425 :begin msgfile_send module!
 
-time: 12.526259 :channel set name login_client!
+time: 4.343511 :create a new channel 8d0!
 
-time: 12.526375 :router get proc connector_proc's message 
-time: 12.526566 :discard message: message cd1803b type MESSAGE CONN_ACKI to 
-time: 12.530391 :channel receive (12544 1) message from conn login_client!
+time: 4.343685 :send 275 data to conn (null)!
 
-time: 12.530425 :client forward (12544 1) message to main proc!
+time: 4.344518 :channel set name login_client!
 
-time: 12.530440 :router get proc connector_proc's message 
-time: 12.530514 :discard message: message a4560702 type LOGIN_TEST REGISTER to 
+time: 4.344565 :router get proc connector_proc's message 
+time: 4.344681 :discard message: message ec6ec4fe type MESSAGE CONN_ACKI to 
+time: 4.347984 :channel receive (12544 1) message from conn login_client!
+
+time: 4.348004 :client forward (12544 1) message to main proc!
+
+time: 4.348085 :router get proc connector_proc's message 
+time: 4.348168 :normal message prepare to send: message 3432055e type LOGIN_TEST REGISTER to login_test
+time: 4.348378 :router get proc login_test's message 
+time: 4.348431 :discard message: message f7554425 type MESSAGE TYPES to 
+time: 4.348440 :router get proc login_test's message 
+time: 4.348556 :begin to response query message
+time: 4.348607 :normal message prepare to send: message 3432055e type LOGIN_TEST RETURN to DÍM¨¿¤‰¢œ#ÁŽ=ïk£‘Œ¼i‚·FkÀ*ÿñÔãGlogin
+time: 4.348617 :send message to conn process!
+time: 4.351840 :send 202 data to conn login_client!
+
+time: 4.351889 :send (12544  4)message 202 to conn login_client!
+
+time: 8.291181 :create a new channel 11c0!
+
+time: 8.291337 :send 275 data to conn (null)!
+
+time: 8.292404 :channel set name login_client!
+
+time: 8.292472 :router get proc connector_proc's message 
+time: 8.292545 :discard message: message bdee4fc3 type MESSAGE CONN_ACKI to 
+time: 8.295974 :channel receive (12544 1) message from conn login_client!
+
+time: 8.295996 :client forward (12544 1) message to main proc!
+
+time: 8.296107 :router get proc connector_proc's message 
+time: 8.296204 :normal message prepare to send: message b433e8e2 type LOGIN_TEST REGISTER to login_test
+time: 8.296386 :router get proc login_test's message 
+time: 8.296444 :discard message: message 5bde6f50 type MESSAGE TYPES to 
+time: 8.296462 :router get proc login_test's message 
+time: 8.296527 :begin to response query message
+time: 8.296579 :normal message prepare to send: message b433e8e2 type LOGIN_TEST RETURN to DÍM¨¿¤‰¢œ#ÁŽ=ïk£‘Œ¼i‚·FkÀ*ÿñÔãGlogin
+time: 8.296598 :send message to conn process!
+time: 8.299866 :send 202 data to conn login_client!
+
+time: 8.299885 :send (12544  4)message 202 to conn login_client!
+
+time: 14.616716 :create a new channel 4cc0!
+
+time: 14.616884 :send 275 data to conn (null)!
+
+time: 14.617574 :channel set name login_client!
+
+time: 14.617674 :router get proc connector_proc's message 
+time: 14.617746 :discard message: message 96887ecc type MESSAGE CONN_ACKI to 
+time: 14.620054 :channel receive (12544 1) message from conn login_client!
+
+time: 14.620074 :client forward (12544 1) message to main proc!
+
+time: 14.620182 :router get proc connector_proc's message 
+time: 14.620273 :normal message prepare to send: message e5681e43 type LOGIN_TEST REGISTER to login_test
+time: 14.620457 :router get proc login_test's message 
+time: 14.620516 :discard message: message fc30e957 type MESSAGE TYPES to 
+time: 14.620525 :router get proc login_test's message 
+time: 14.620602 :begin to response query message
+time: 14.620654 :normal message prepare to send: message e5681e43 type LOGIN_TEST RETURN to DÍM¨¿¤‰¢œ#ÁŽ=ïk£‘Œ¼i‚·FkÀ*ÿñÔãGlogin
+time: 14.620663 :send message to conn process!
+time: 14.623865 :send 202 data to conn login_client!
+
+time: 14.623912 :send (12544  4)message 202 to conn login_client!
+

@@ -11,10 +11,9 @@ LOCALLIB=-L$(CUBEAPPPATH)/locallib/bin -lstring_func
 main: lib$(PLUGIN).so
 lib$(PLUGIN).so:  $(PLUGIN).o $(PLUGIN_PROC_OBJ) $(INIT_DB_OBJ)
 	$(CC) $(FLAGS) lib$(PLUGIN).so $(PLUGIN).o $(PLUGIN_OBJ) $(TEST_LIB)
-	mv lib$(PLUGIN).so $(CUBEAPPPATH_)/plugin
+	cp lib$(PLUGIN).so $(CUBEAPPPATH_)/plugin
 	cp $(PLUGIN).cfg $(CUBEAPPPATH)/plugin
 $(PLUGIN).o: $(PLUGIN).c $(PLUGIN).h
 	$(CC) $(CFLAGS) $(PLUGIN).c
 clean:
-	rm -f lib$(PLUGIN).so
 	rm  *.o *~

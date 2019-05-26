@@ -65,7 +65,7 @@ int proc_login_register(void * sub_proc,void * recv_msg)
 	if(ret<0)
 		return ret;
 	DB_RECORD * db_record;
-	if(memdb_find_byname(register_info->user_name,TYPE_PAIR(LOGIN_TEST,REGISTER))){
+	if(memdb_find_byname(register_info->user_name,TYPE_PAIR(LOGIN_TEST,REGISTER))!=NULL){
 		return_info->return_code=1;
         	return_info->return_info=dup_str("register field! Repeat registration!",0);
 
@@ -95,5 +95,17 @@ int proc_login_register(void * sub_proc,void * recv_msg)
 	if(ret<0)
 		return ret;
 	ret=ex_module_sendmsg(sub_proc,new_msg);
+
+	RECORD(MESSAGE,TYPES) type_pair;
+	new_msg=message_create(TYPE_PAIR(MESSAGE,TYPES),NULL);
+	if(new_msg==NULL)
+		return ret;
+	type_pair.type=TYPE(LOGIN_TEST);
+	type_pair.subtype=SUBTYPE(LOGIN_TEST,REGISTER);
+	ret=message_add_record(new_msg,&type_pair);
+	if(ret<0)
+		return ret;
+	ret=ex_module_sendmsg(sub_proc,new_msg);
+
 	return ret;
 }
