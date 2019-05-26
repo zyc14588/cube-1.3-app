@@ -1,0 +1,39 @@
+time: 0.0 :read 2 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/namelist.json!
+
+time: 0.000287 :read 4 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/dispatchnamelist.json!
+
+time: 0.000440 :read 1 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/typelist.json!
+
+time: 0.000968 :read 7 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/subtypelist.json!
+
+time: 0.001064 :read 1 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/baseflag.json!
+
+time: 0.001532 :read 3 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/memdb.json!
+
+time: 0.002246 :read 6 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/msghead.json!
+
+time: 0.002739 :read 2 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/msgrecord.json!
+
+time: 0.003236 :read 3 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/expandrecord.json!
+
+time: 0.004196 :read 8 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/base_msg.json!
+
+time: 0.004850 :read 3 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/dispatchrecord.json!
+
+time: 0.005149 :read 2 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/exmoduledefine.json!
+
+time: 0.005393 :read 1 elem from file /root/cube-1.3-app/cube-1.3/proc/main/base_define/sys_conn.json!
+
+time: 0.011171 :read 19 elem from file cube_manage.json!
+
+time: 0.018194 :this machine's local uuid is df92b79c3abf612462ba18fcb525823391aa91aa9efa2606c8603194f63b9b93
+
+time: 0.019042 :read 0 policy succeed!
+time: 0.019107 :prepare the router proc
+
+time: 0.019670 :prepare the conn proc
+
+time: 0.019762 :monitor ex_modulec router_proc started successfully!
+
+time: 0.019797 :start ex_module module_template started successfully!
+

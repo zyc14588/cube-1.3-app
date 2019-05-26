@@ -1,0 +1,9 @@
+{
+	"type":"MESSAGE",
+	"subtype":"TYPES",
+	"mode":"INT"
+}
+{
+	"type":"TCM_KEY_MANAGE",
+	"subtype":0
+}

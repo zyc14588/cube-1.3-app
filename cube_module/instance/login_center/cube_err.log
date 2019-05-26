@@ -1,2 +1,4 @@
 solve json str error!
 read aspect policy error -1!
+Failed to open library /root/cube-1.3-app/cube_module/plugin//liblogin_test.so error:/root/cube-1.3-app/cube_module/plugin//liblogin_test.so: undefined symbol: srtcmp
+plugin login_test's dynamic lib /root/cube-1.3-app/cube_module/plugin//liblogin_test.so  read init func login_test_init failed!
