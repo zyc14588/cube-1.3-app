@@ -1,5 +1,5 @@
 
 **************Begin new trust node proc****************************
-{ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"define_convert","route":"convert","flow":"NULL","state":"INIT","flag":"LOCAL","ljump":1,"rjump":1,"record_type":"MESSAGE","record_subtype":"TYPES","record_num":1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"b7809a212973e23e06c194835f94ed8227430d1964e29a65d0ea49f13096043e"},"RECORD":[{"type":"TCM_KEY_MANAGE","subtype":"NULL"}],"EXPAND" :[]}
+{ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"define_convert","route":"convert","flow":"NULL","state":"INIT","flag":"LOCAL","ljump":1,"rjump":1,"record_type":"MESSAGE","record_subtype":"TYPES","record_num":1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"a9b6cb78a6e56b48c748d35245bd1fa532bc4e761a2f05b6715b2bf0bf1cc461"},"RECORD":[{"type":"TCM_KEY_MANAGE","subtype":"NULL"}],"EXPAND" :[]}
 
 ************************************************************

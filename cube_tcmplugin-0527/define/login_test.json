@@ -1,0 +1,34 @@
+{
+	"head":
+	{
+		"name":"dtype_login_test",
+		"type":"TYPELIST"
+	},
+	"record":
+	{
+		"elem_no":1,
+		"elemlist":
+		[
+			"LOGIN_TEST=0x3100"
+		]
+	}
+}
+{
+	"head":
+	{
+		"name":"subtype_login_test",
+		"type":"SUBTYPELIST"
+	},
+	"record":
+	{
+		"type":"LOGIN_TEST",
+		"elem_no":4,
+		"elemlist":
+		[
+			"REGISTER=0x01",
+			"LOGIN",
+			"STATE",
+			"RETURN"
+		]
+	}
+}
